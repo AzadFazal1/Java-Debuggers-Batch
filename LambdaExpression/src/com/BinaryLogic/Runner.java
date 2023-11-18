@@ -52,8 +52,6 @@ public class Runner {
 		 
 		System.out.println(biPredicate.test( "Joe", 3 ));
 		
-		
-		
 
 	}
 
