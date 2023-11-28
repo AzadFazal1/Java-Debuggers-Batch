@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <!--  1. Create a blackInk object using the default constructor-->
+
+ <bean id="blackInk" class="xmlConfig.Beans.BlackInk"></bean>
+ <!--2.  Create FountainPen Object and inject BlackInk into it  --> 
+
+ <bean id="fountainPen" class="xmlConfig.Beans.FountainPen">
+	 <property name="ink" ref="blackInk"></property>
+ </bean>
+ 
+ <!-- 3. Create Writer Object and Inject fountainPen into it that was created in step2 -->
+
+ <bean id="writer" class="xmlConfig.Beans.Writer">
+	 <property name="pen" ref="fountainPen"></property>
+ </bean>
+</beans>
