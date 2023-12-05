@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-20.0.2">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/aspectjweaver-1.9.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/classmate-1.5.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/jackson-annotations-2.13.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/jackson-core-2.13.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/jackson-databind-2.13.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/jakarta.el-3.0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/jakarta.validation-api-2.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/javax.servlet.jsp.jstl-1.2.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/jboss-logging-3.4.1.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-aop-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-aop-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-aop-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-aspects-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-aspects-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-aspects-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-beans-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-beans-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-indexer-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-indexer-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-indexer-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-support-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-support-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-context-support-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-core-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-core-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-core-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-expression-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-expression-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-expression-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-instrument-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-instrument-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-instrument-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jcl-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jcl-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jcl-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jdbc-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jdbc-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jdbc-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jms-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jms-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-jms-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-messaging-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-messaging-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-messaging-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-orm-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-orm-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-orm-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-oxm-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-oxm-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-oxm-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-test-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-test-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-test-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-tx-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-tx-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-tx-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-web-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-web-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-web-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-webflux-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-webflux-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-webflux-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-webmvc-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-webmvc-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-websocket-5.0.2.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-websocket-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Path/jars/SpringMVC 5.2.0.RELEASE/spring-websocket-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Path/jars/commons-configuration-1.10.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
