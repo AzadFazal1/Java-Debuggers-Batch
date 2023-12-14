@@ -1,6 +1,9 @@
 package com.BinaryLogic.service;
 
 import java.util.List;
+import java.util.Optional;
+
+import org.springframework.http.ResponseEntity;
 
 import com.BinaryLogic.model.Employee;
 
@@ -9,7 +12,7 @@ public interface EmployeeService {
 
 	public void addEmployee(Employee employee);
 
-	public Employee getEmployeeById(int myId);
+	public Optional<Employee> getEmployeeById(int myId);
 
-	public void deleteEmployeeByID(int myId);
+	public ResponseEntity<?> deleteEmployeeByID(int myId);
 }

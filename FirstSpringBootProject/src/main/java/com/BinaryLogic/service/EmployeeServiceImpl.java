@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.BinaryLogic.Dao.EmployeeRepository;
@@ -27,19 +29,21 @@ public class EmployeeServiceImpl implements EmployeeService{
 	}
 
 	@Override
-	public Employee getEmployeeById(int myId) {
-		Optional<Employee> employee = employeeRepository.findById(myId);
-		if(employee.isPresent()) {
-			return employee.get();
-		}
-		else {
-			return null;
-		}
+	public Optional<Employee> getEmployeeById(int myId) {
+		
+		return employeeRepository.findById(myId);
+		
 	}
 
 	@Override
-	public void deleteEmployeeByID(int myId) {
-		employeeRepository.deleteById(myId);
+	public ResponseEntity<?> deleteEmployeeByID(int myId) {
+		Optional<Employee> employee = employeeRepository.findById(myId);
+		if(employee.isPresent()) {
+			employeeRepository.deleteById(myId);
+			return new ResponseEntity<>(HttpStatus.OK);
+		}
+		return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+
 	}
 
 }
